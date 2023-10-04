@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llDialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/are_you_sure"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/message"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/btnDialogYes"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/btnyes"
+                android:layout_marginEnd="5dp"
+                android:backgroundTint="@color/colorAccent"/>
+
+            <Button
+                android:id="@+id/btnDialogNo"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/btnno"
+                android:layout_marginStart="5dp"
+                android:backgroundTint="@color/colorAccent"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

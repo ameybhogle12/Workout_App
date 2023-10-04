@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WorkoutApp</string>
+    <string name="start">START</string>
+    <string name="Image">Oppening Image</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="message">You have come this far, are you sure you want to quit?</string>
+    <string name="btnyes">YES</string>
+    <string name="btnno">NO</string>
+</resources>
